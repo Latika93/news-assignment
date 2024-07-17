@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/latika93.github.io/news-assignment/static/css/main.f855e6bc.css",
+    "main.js": "/latika93.github.io/news-assignment/static/js/main.bea4dafb.js",
+    "static/js/453.719505d0.chunk.js": "/latika93.github.io/news-assignment/static/js/453.719505d0.chunk.js",
+    "index.html": "/latika93.github.io/news-assignment/index.html",
+    "main.f855e6bc.css.map": "/latika93.github.io/news-assignment/static/css/main.f855e6bc.css.map",
+    "main.bea4dafb.js.map": "/latika93.github.io/news-assignment/static/js/main.bea4dafb.js.map",
+    "453.719505d0.chunk.js.map": "/latika93.github.io/news-assignment/static/js/453.719505d0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.bea4dafb.js"
+  ]
+}
