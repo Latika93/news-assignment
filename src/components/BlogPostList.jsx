@@ -5,7 +5,7 @@ import { API_KEY } from '../constants';
 const BlogPostList = ({ category }) => {
     const [data, setData] = useState([]);
     const [currentPage, setCurrentPage] = useState(1);
-    const articlesPerPage = 5;
+    const articlesPerPage = 6;
 
     const fetchArticles = () => {
         let url = `https://newsapi.org/v2/top-headlines?country=us&category=${category}&apiKey=${API_KEY}&page=${currentPage}&pageSize=${articlesPerPage}`;
@@ -27,7 +27,7 @@ const BlogPostList = ({ category }) => {
     }, [category, currentPage]);
     return (
         <div className="container">
-            <h1 className="text-center m-2 bg-primary py-2">Top News</h1>
+            <h1 className="text-center m-2 bg-primary py-2 text-white">Top News</h1>
             {data.length > 0 ? (
                 data.map((news, index) => (
                     <BlogPostItem

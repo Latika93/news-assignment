@@ -1,5 +1,6 @@
 import './App.css';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; import Navbar from './components/Navbar';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; 
+import Navbar from './components/Navbar';
 import BlogPostList from './components/BlogPostList';
 import BlogPostDetails from './components/BlogPostDetails';
 import { useState } from 'react';
